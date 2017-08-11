@@ -1,0 +1,29 @@
+.headerRow2b {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+
+
+
+
+    .Logo .logo img {
+    /* max-height: inherit; */
+    position: relative;
+    left: 0px;
+    right: 0px;
+    width: max-content;
+    height: auto;
+    /* max-width: 100%; */
+    margin: 0;
+    float: left;
+
+
+
+    .headerZone3b {
+    float: right;
+    /* margin: 0; */
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    position: relative;
+    padding-left: 25%;
+    /* align-content: center; */
