@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha",
-    "start": ""
+    "start": "nodemon server.js"
   },
   "author": "James Timberlake",
   "license": "ISC",
