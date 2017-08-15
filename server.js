@@ -22,8 +22,10 @@ mongoose.Promise = global.Promise;
 app.get('/posts', (req, res) => {
     BlogPost
         .find()
-        .exec() //looked this up,basicly makes this a promise, but why do I need it here?
-        .then(posts => res.json(posts.map(post => post.apiRepr())))
+        .exec()
+        .then(posts => {
+            res.json(posts.map(post => post.apiRepr()));
+        })
         .catch(err => {
             console.error(err);
             res.status(500).json({
