@@ -4,6 +4,6 @@ services: mongodb
 deploy:
   api_key:
     secure: vcp4X84sw8MrtAqiTP+tCj9Xt+QitlA7CVA0tBhgOQnFWWpJuChOIlwos1X5r+BIsxYrQlItLu5OYJTWXjfy84/bLpFE5UNA1GowMQDkSaQBe7FAHQSshajmlj2ha9Xmf00yEAnv5uONLJHsEyl27QhR5j1w90wpg2fDWUjB3cuzVc5a1ZbO0me6g5CpmSh2ShX0rjD4jW/6hYBf/9k6/k+WkJh4ipPe+so6bi14vm5A7UEGDdR1tLyEp+44lDFcCOVC+p7BzmvsI3EC+wNReIuuhYhRZRAwppbtZMJBnBXhR7C25XmXqH8hugM2fn4oAMYcq2K545Io9o135rxS/mEPqgt3F1F1EyV3SgTbK+2a70rNn9bq9jKeKolgnkD5lhkC2kLcgfwe+eJtw3iaL2SQ/rwoP85zylTJuNXzIa4HH2Ao5tOMZBRVbQRPTwEtojEtTomrXjMi+3y+nTWE+6n5Llyr/dCDRw8OItrVuz2sfYVMYWLMEYmBnJduUbq5ml7BQ0reHDX0OEEVOA9M671XWDiEeHsvk5CYE9mjikaE+gmyElChN57zBdrb9XrEXIyJtNA2DqpOhkPmNuSvwWOLKm3RUZXDItAZRipW3iGcOACkkwx+TjTi6YPkkBMcu1uzyi7lQ2b14xuu5aZsSDpEn0D2OJOKiNcqZQboEG4=
-    app: boiling-headland-27793
-    on:
-    repo: JTGeek/blog1
+  app: boiling-headland-27793
+  on:
+     repo: JTGeek/blog1
