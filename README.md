@@ -10,3 +10,9 @@ To do: blogPostsRouter: Mongoose//////replaced with updated server.js based off 
 To do: Test, seed //done. Test failed on get/posts 
 
 **Do get and posts first, then test.  
+
+
+
+type in heroku auth:token
+get your token then type in 
+travis encrypt $(heroku auth:token) --add deploy.api_key
